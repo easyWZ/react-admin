@@ -1,13 +1,22 @@
-import React,{Component} from 'react';
+import React, {
+    Component,
+    Fragment
+} from 'react';
+import {
+    Button
+} from 'antd';
 
-class Home extends Component{
-    constructor(){
+class Home extends Component {
+    constructor() {
         super();
         this.state = {};
     }
-    render(){
-        return(
-            <div>Home</div>
+    render() {
+        return (
+            <Fragment>
+            Home 
+            <Button type="primary" > button </Button> 
+            </Fragment>
         )
     }
 }
