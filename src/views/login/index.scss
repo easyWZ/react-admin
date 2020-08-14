@@ -1,14 +1,13 @@
 .Login {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
 
     .form-wrap {
+        @include flex-center;
         width: 50vw;
         height: 50vh;
-        background-color: #6495ED;
-        
+        background-color: #EEEEEE;
+
     }
 }
